@@ -33,4 +33,29 @@ Q13. If a company wants to train a robot which has the ability to take decisions
 
 Q14. Describe the lifecycle of the machine learning system.
 
-Q15. What are the different sources which can be used as a source of data
+Q15. What is the necessity of understanding the problem statement and creating a well defined architecture?
+
+Q16. Why do we create a seprate workspace for every problem?
+
+Q17. What are the different sources which can be used as a source of data gathering?
+
+Q18. What is the data annotation?
+
+Q19. What are the different steps involved in data wrangling?
+
+Q20. What are the steps involved in model development?
+
+Q21. What are the different steps involved in model training?
+
+Q22. What are the different steps involved in model evaluation?
+
+Q23. What is model deployment?
+
+Q24. What are the different sources where we can deploy our model?
+
+Q25. What is model monitoring and how can wedo it?
+
+Q26. What is model retraining?
+
+Q27. What are the conditions when we need to do model retraining?
+
