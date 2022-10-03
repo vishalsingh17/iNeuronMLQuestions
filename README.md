@@ -67,5 +67,35 @@ Q29. Download the [housing data](https://www.kaggle.com/datasets/camnugent/calif
 
 Q30. Try creating a single pipeline that does every steps from data preparation to model prediction.
 
+## Linear Regression Algorithms
+Q31. What is meant by regression?
 
+Q32. What is meant by linear regression?
 
+Q33. Write a python function that take an input value, weight and bais as an input and returns the returns the prediction.
+
+Q34. What is normal equation?
+
+Q35 What is an error?
+
+Q36. What is the difference between error and cost function?
+
+Q37. What is gradient descent?
+
+Q38. What is random initialization in gradient descent?
+
+Q39. What is the role of learning rate?
+
+Q40. What will happen if the learning rate is too less?
+
+Q41 What will happen if the learning rate is too large?
+
+Q42. What is local and global minima?
+
+Q43. What is batch gradient descent?
+
+Q44. What is convergence rate?
+
+Q45. What is stochastic gradient descent?
+
+Q46. 
