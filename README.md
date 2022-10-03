@@ -98,4 +98,69 @@ Q44. What is convergence rate?
 
 Q45. What is stochastic gradient descent?
 
-Q46. 
+Q46. What is mini batch gradient descent?
+
+Q47. Explain polymonial regression mathematically.
+
+Q48. How learning curves avoids underfitting and overfitting problems?
+
+Q49. What is regularization?
+
+Q50. How ridge regression helps reduce the overfitting problem?
+
+Q51. How lasso regression helps reduce the overfitting problem?
+
+Q52. What is the difference between ridge and lasso regression?
+
+Q53. Explain Elastic Net.
+
+Q54. How can we use early stopping to reduce overfitting?
+
+Q55. How is logistic regression used for classification?
+
+Q56. Explain the use of softmax function in logistic regression.
+
+Q57. Can we use logistic regression for multiclass classification?
+
+Q58. What is a decision boundary?
+
+Q59. Explain softmax regression.
+
+Q60. What is cross entropy?
+
+Q61. Which Linear Regression training algorithm can you use if you have a training
+set with millions of features?
+
+Q62. Suppose the features in your training set have very different scales. Which algorithms might suffer from this, and how? What can you do about it?
+
+Q63. Can Gradient Descent get stuck in a local minimum when training a Logistic
+Regression model?
+
+Q64. Do all Gradient Descent algorithms lead to the same model, provided you let
+them run long enough?
+
+Q65. Suppose you use Batch Gradient Descent and you plot the validation error at
+every epoch. If you notice that the validation error consistently goes up, what is
+likely going on? How can you fix this?
+
+Q66. Is it a good idea to stop Mini-batch Gradient Descent immediately when the validation error goes up?
+
+Q67. Which Gradient Descent algorithm (among those we discussed) will reach the
+vicinity of the optimal solution the fastest? Which will actually converge? How
+can you make the others converge as well?
+
+Q68. Suppose you are using Polynomial Regression. You plot the learning curves and
+you notice that there is a large gap between the training error and the validation
+error. What is happening? What are three ways to solve this?
+
+Q69. Suppose you are using Ridge Regression and you notice that the training error
+and the validation error are almost equal and fairly high. Would you say that the
+model suffers from high bias or high variance? Should you increase the regulari‐
+zation hyperparameter α or reduce it?
+
+Q70. Implement Batch Gradient Descent with early stopping for Softmax Regression
+(without using Scikit-Learn).
+
+## Decision Trees
+
+
