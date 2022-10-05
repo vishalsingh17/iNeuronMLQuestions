@@ -161,6 +161,34 @@ zation hyperparameter α or reduce it?
 Q70. Implement Batch Gradient Descent with early stopping for Softmax Regression
 (without using Scikit-Learn).
 
-## Decision Trees
+## SVM
+Q71. Explain linear SVM classification.
+
+Q72. What is large margin classification?
+
+Q73. What is a support vector?
+
+Q74. Are SVMs sensitive to scale of data?
+
+Q75. What is hard margin classification? What is it's drawback?
+
+Q76. What is soft margin classification?
+
+Q77. What is a kernel in SVM?
+
+Q78. How can we perform classification using SVC on huge datasets or streaming datasets?
+
+Q79. Explain non-linear SVM classification.
+
+Q80. What is polymonial kernel and how can we use it for non-linear SVM classification?
+
+Q81. Is there any limitation of polymonial kernel?
+
+Q82. What is kernel trick?
+
+Q83. How can we use similarity features to tackle nonliner problem?
+
+
+
 
 
