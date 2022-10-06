@@ -194,7 +194,33 @@ Q85. Can we use SVMs for regression? If yes, explain how.
 
 Q86. How SVM uses decision function to make predictions?
 
-Q87. 
+Q87. What is Dual Problem?
 
+Q88. Explain Kernelized SVM.
+
+Q89. What are online SVMs?
+
+Q90. Why is it important to scale the inputs when using SVMs?
+
+Q91. Can an SVM classifier output a confidence score when it classifies an instance?
+
+Q92. Should you use the primal or the dual form of the SVM problem to train a model
+on a training set with millions of instances and hundreds of features?
+
+Q93. Say you’ve trained an SVM classifier with an RBF kernel, but it seems to underfit
+the training set. Should you increase or decrease γ (gamma)? What about C?
+
+Q94. How should you set the QP parameters (H, f, A, and b) to solve the soft margin
+linear SVM classifier problem using an off-the-shelf QP solver?
+
+Q95. Train a LinearSVC on a linearly separable dataset. Then train an SVC and a
+SGDClassifier on the [iris dataset](https://www.kaggle.com/datasets/uciml/iris). See if you can get them to produce roughly the same model.
+
+Q96. Train an SVM classifier on the MNIST dataset. Since SVM classifiers are binary
+classifiers, you will need to use one-versus-the-rest to classify all 10 digits. You
+may want to tune the hyperparameters using small validation sets to speed up the
+process. What accuracy can you reach?
+
+Q97. Train an SVM regressor on the [housing dataset](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
 
 
