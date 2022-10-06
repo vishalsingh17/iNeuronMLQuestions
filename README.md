@@ -224,3 +224,23 @@ process. What accuracy can you reach?
 Q97. Train an SVM regressor on the [housing dataset](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
 
 
+## Decision Trees
+Q98. What are black box and white box models?
+
+Q99. Explain the working of decision trees.
+
+Q100. Can you import the decision trees in a graphical format for visualization?
+
+Q101. Can we train a decision tree wihout scaling the data?
+
+Q102. What is gini impurity? What is the mathematical formula for it?
+
+Q103. What is information gain? How is mathematically calculated?
+
+Q104. What is CART(Classification and Regression Tree) algorithm?
+
+Q105. What is the cost fuction o CART for classification?
+
+Q106. Why is CART a greedy algorithm?
+
+Q107. 
