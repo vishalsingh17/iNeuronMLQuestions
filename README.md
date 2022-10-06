@@ -188,7 +188,13 @@ Q82. What is kernel trick?
 
 Q83. How can we use similarity features to tackle nonliner problem?
 
+Q84. What is Gaussian RBF kernel?
 
+Q85. Can we use SVMs for regression? If yes, explain how.
+
+Q86. How SVM uses decision function to make predictions?
+
+Q87. 
 
 
 
