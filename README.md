@@ -318,3 +318,52 @@ Q125. Grow a forest by following these steps:
     d. Evaluate these predictions on the test set: you should obtain a slightly higher
     accuracy than your first model (about 0.5 to 1.5% higher). Congratulations,
     you have trained a Random Forest classifier!
+
+## Ensemble Learning and Random Forest
+Q126. What do you understand by ensemble learning?
+
+Q127. What is voting classifier?
+
+Q128. What is hard voting classifier?
+
+Q129. What do you understand by weak learners?
+
+Q130. What so you understand by strong learners?
+
+Q131. What is law of large numbers?
+
+Q132. What is condition for the ensemble method to work best?
+
+Q133. What is soft voting classifier?
+
+Q134. Which voting classifier often gets a better performance? Hard voting classifiers or soft voting classifiers and why?
+
+Q135. Explain bagging method.
+
+Q136. Explain pasting method.
+
+Q137. What is bootstrap aggregation method?
+
+Q138. What is out of bag evaluation?
+
+Q139. What is random patch method? How can we implement it?
+
+Q140. What is random subspace method? How can we implement it?
+
+Q141. What is random forest?
+
+Q142. Explain extra tree/ extremely randomized tree.
+
+Q143. What is bais in a model?
+
+Q144. What is variance in a model?
+
+Q145. What is bais variance trade off?
+
+Q146. How random forest measures feature importance between features?
+
+Q147. What is boosting?
+
+Q148. Explain AdaBoost/ Adaptive Boosting.
+
+Q149. 
