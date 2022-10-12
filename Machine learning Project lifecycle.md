@@ -1,0 +1,37 @@
+## Machine learning Project lifecycle
+
+Q14. Describe the lifecycle of the machine learning system.
+
+Q15. What is the necessity of understanding the problem statement and creating a well defined architecture?
+
+Q16. Why do we create a seprate workspace for every problem?
+
+Q17. What are the different sources which can be used as a source of data gathering?
+
+Q18. What is the data annotation?
+
+Q19. What are the different steps involved in data wrangling?
+
+Q20. What are the steps involved in model development?
+
+Q21. What are the different steps involved in model training?
+
+Q22. What is hyperparameter tuning?
+
+Q22. What are the different steps involved in model evaluation?
+
+Q23. What is model over fitting and under fitting?
+
+Q24. What is model deployment?
+
+Q25. What are the different sources where we can deploy our model?
+
+Q26. What is model monitoring and how can we do it?
+
+Q27. What is model retraining?
+
+Q28. What are the conditions when we need to do model retraining?
+
+Q29. Download the [housing data](https://www.kaggle.com/datasets/camnugent/california-housing-prices) and train a machine learning model and can be used to predict the price of house given the required parameters.
+
+Q30. Try creating a single pipeline that does every steps from data preparation to model prediction.

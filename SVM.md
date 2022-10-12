@@ -1,0 +1,61 @@
+## SVM
+Q71. Explain linear SVM classification.
+
+Q72. What is large margin classification?
+
+Q73. What is a support vector?
+
+Q74. Are SVMs sensitive to scale of data?
+
+Q75. What is hard margin classification? What is it's drawback?
+
+Q76. What is soft margin classification?
+
+Q77. What is a kernel in SVM?
+
+Q78. How can we perform classification using SVC on huge datasets or streaming datasets?
+
+Q79. Explain non-linear SVM classification.
+
+Q80. What is polymonial kernel and how can we use it for non-linear SVM classification?
+
+Q81. Is there any limitation of polymonial kernel?
+
+Q82. What is kernel trick?
+
+Q83. How can we use similarity features to tackle nonliner problem?
+
+Q84. What is Gaussian RBF kernel?
+
+Q85. Can we use SVMs for regression? If yes, explain how.
+
+Q86. How SVM uses decision function to make predictions?
+
+Q87. What is Dual Problem?
+
+Q88. Explain Kernelized SVM.
+
+Q89. What are online SVMs?
+
+Q90. Why is it important to scale the inputs when using SVMs?
+
+Q91. Can an SVM classifier output a confidence score when it classifies an instance?
+
+Q92. Should you use the primal or the dual form of the SVM problem to train a model
+on a training set with millions of instances and hundreds of features?
+
+Q93. Say you’ve trained an SVM classifier with an RBF kernel, but it seems to underfit
+the training set. Should you increase or decrease γ (gamma)? What about C?
+
+Q94. How should you set the QP parameters (H, f, A, and b) to solve the soft margin
+linear SVM classifier problem using an off-the-shelf QP solver?
+
+Q95. Train a LinearSVC on a linearly separable dataset. Then train an SVC and a
+SGDClassifier on the [iris dataset](https://www.kaggle.com/datasets/uciml/iris). See if you can get them to produce roughly the same model.
+
+Q96. Train an SVM classifier on the MNIST dataset. Since SVM classifiers are binary
+classifiers, you will need to use one-versus-the-rest to classify all 10 digits. You
+may want to tune the hyperparameters using small validation sets to speed up the
+process. What accuracy can you reach?
+
+Q97. Train an SVM regressor on the [housing dataset](https://www.kaggle.com/datasets/camnugent/california-housing-prices).

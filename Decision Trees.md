@@ -1,0 +1,94 @@
+## Decision Trees
+Q98. What are black box and white box models?
+
+Q99. Explain the working of decision trees.
+
+Q100. Can you import the decision trees in a graphical format for visualization?
+
+Q101. Can we train a decision tree wihout scaling the data?
+
+Q102. What is entropy? What is the mathematical formula for it?
+
+Q103. What is information gain? How is mathematically calculated?
+
+Q104. What is ginni impurity and how is it calculated?
+
+Q105. What is CART(Classification and Regression Tree) algorithm?
+
+Q106. What is the cost fuction of CART for classification?
+
+Q107. Why is CART a greedy algorithm?
+
+Q108. What is parametric model?
+
+Q109. What is non parametric model?
+
+Q110. What al regularization parameters can you use in decision tree?
+
+Q111. What is pruning?
+
+Q112. When do we need to perform pruning?
+
+Q113. Expalin pre pruning.
+
+Q114. What is post pruning?
+
+Q115. What is the difference between decision tree classifier and decision tree regressor?
+
+Q116. What is the cost fuction of CART for regression?
+
+Q117. List some instabilities of decision tree.
+
+Q118. What is the approximate depth of a Decision Tree trained (without restrictions)
+on a training set with one million instances?
+
+Q119. Is a node’s Gini impurity generally lower or greater than its parent’s? Is it gener‐
+ally lower/greater, or always lower/greater?
+
+Q120. If a Decision Tree is overfitting the training set, is it a good idea to try decreasing
+max_depth?
+
+Q121. If a Decision Tree is underfitting the training set, is it a good idea to try scaling
+the input features?
+
+Q122. If it takes one hour to train a Decision Tree on a training set containing 1 million
+instances, roughly how much time will it take to train another Decision Tree on a
+training set containing 10 million instances?
+
+Q123. If your training set contains 100,000 instances, will setting presort=True speed
+up training?
+
+Q124. Train and fine-tune a Decision Tree for the moons dataset by following these
+steps:
+
+    a. Use make_moons(n_samples=10000, noise=0.4) to generate a moons dataset.
+
+    b. Use train_test_split() to split the dataset into a training set and a test set.
+
+    c. Use grid search with cross-validation (with the help of the GridSearchCV
+    class) to find good hyperparameter values for a DecisionTreeClassifier.
+    Hint: try various values for max_leaf_nodes.
+
+    d. Train it on the full training set using these hyperparameters, and measure
+    your model’s performance on the test set. You should get roughly 85% to 87%
+    accuracy.
+
+Q125. Grow a forest by following these steps:
+
+    a. Continuing the previous exercise, generate 1,000 subsets of the training set,
+    each containing 100 instances selected randomly. Hint: you can use ScikitLearn’s ShuffleSplit class for this.
+
+    b. Train one Decision Tree on each subset, using the best hyperparameter values
+    found in the previous exercise. Evaluate these 1,000 Decision Trees on the test
+    set. Since they were trained on smaller sets, these Decision Trees will likely
+    perform worse than the first Decision Tree, achieving only about 80%
+    accuracy.
+
+    c. Now comes the magic. For each test set instance, generate the predictions of
+    the 1,000 Decision Trees, and keep only the most frequent prediction (you can
+    use SciPy’s mode() function for this). This approach gives you majority-vote
+    predictions over the test set.
+
+    d. Evaluate these predictions on the test set: you should obtain a slightly higher
+    accuracy than your first model (about 0.5 to 1.5% higher). Congratulations,
+    you have trained a Random Forest classifier!
